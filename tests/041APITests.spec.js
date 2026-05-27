@@ -38,7 +38,7 @@ test("Create User", async({request})=>{
 })
 
 //PUT Request-->Update user
-test.only("Update User", async({request})=>{
+test("Update User", async({request})=>{
 
     const response = await request.put("https://reqres.in/api/users/"+userid,
                                         {
