@@ -24,7 +24,7 @@ test("Full Page Screenshot", async ({page})=>{
 })
 
 //If you want to screenshot for particular element or specific area
-test.only("Element Screenshot", async ({page})=>{
+test("Element Screenshot", async ({page})=>{
 
     await page.goto("https://www.opencart.com/index.php?route=cms/feature");
 

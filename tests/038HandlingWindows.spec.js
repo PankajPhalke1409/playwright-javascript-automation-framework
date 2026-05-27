@@ -28,7 +28,7 @@ test("Handling windows", async ()=>{
 
 })
 
-test.only("Handle multiple pages", async ()=>{
+test("Handle multiple pages", async ()=>{
 
     const browser = await chromium.launch();
 

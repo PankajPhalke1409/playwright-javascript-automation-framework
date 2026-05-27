@@ -13,7 +13,7 @@ test("Upload single file", async ({page})=>{
 })
 
 //test.only-->only that test will be executing other testes are ignored
-test.only("Upload multiple files", async ({page})=>{
+test("Upload multiple files", async ({page})=>{
 
     await page.goto("https://davidwalsh.name/demo/multiple-file-upload.php");
 

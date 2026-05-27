@@ -1,6 +1,6 @@
 import {test, expect} from "@playwright/test";
 
-test.skip("Alert with ok", async ({page})=>{
+test("Alert with ok", async ({page})=>{
 
     await page.goto("https://testautomationpractice.blogspot.com/");
 
@@ -16,7 +16,7 @@ test.skip("Alert with ok", async ({page})=>{
     await page.waitForTimeout(5000);
 })
 
-test.skip("Confirmation dialog alert with ok and cancel", async ({page})=>{
+test("Confirmation dialog alert with ok and cancel", async ({page})=>{
 
     await page.goto("https://testautomationpractice.blogspot.com/");
 
